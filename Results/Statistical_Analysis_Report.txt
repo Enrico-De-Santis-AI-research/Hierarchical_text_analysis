@@ -1,0 +1,29 @@
+📊 **Statistical Analysis Report for Maximum Entropy Model**
+---------------------------------------------------------
+
+✅ Constraint Type Used: **mean**
+
+📈 **ANOVA Test Result:**
+  - F-statistic: 0.3430
+  - p-value: 0.879259
+📈 **Kruskal-Wallis Test Result:**
+  - H-statistic: 1.9834
+  - p-value: 0.851437
+
+📉 **Pairwise t-tests with Bonferroni Correction & Cohen's d Effect Size (95% CI):**
+         Level_1          Level_2  t_statistic  p_value   Cohen_d   CI_Lower  CI_Upper  p_adjusted  Significant
+ Character_Level Morphology_Level    -0.833227 0.451578 -0.698407 -11.702303 10.305489         1.0        False
+ Character_Level     Syntax_Level    -0.659297 0.545729 -0.606278 -11.610174 10.397618         1.0        False
+ Character_Level    Grammar_Level     0.099773 0.926818  0.093618 -11.505507 11.692743         1.0        False
+ Character_Level   Semantic_Level    -0.765704 0.486538 -0.759872 -11.763768 10.244024         1.0        False
+ Character_Level  Stylistic_Level    -0.622574 0.560854 -0.628839 -11.259612 10.001935         1.0        False
+Morphology_Level     Syntax_Level    -0.056605 0.956698 -0.040026  -2.290355  2.210303         1.0        False
+Morphology_Level    Grammar_Level     0.982123 0.371142  0.728045  -2.558161  4.014250         1.0        False
+Morphology_Level   Semantic_Level    -0.516620 0.623903 -0.365306  -2.615635  1.885024         1.0        False
+Morphology_Level  Stylistic_Level    -0.440736 0.672695 -0.312307  -2.447157  1.822543         1.0        False
+    Syntax_Level    Grammar_Level     0.840237 0.439094  0.647449  -2.638757  3.933654         1.0        False
+    Syntax_Level   Semantic_Level    -0.439978 0.675359 -0.311112  -2.561441  1.939218         1.0        False
+    Syntax_Level  Stylistic_Level    -0.393365 0.705756 -0.275494  -2.410344  1.859356         1.0        False
+   Grammar_Level   Semantic_Level    -0.988955 0.368097 -0.792977  -4.079182  2.493228         1.0        False
+   Grammar_Level  Stylistic_Level    -0.819617 0.443766 -0.663021  -3.805234  2.479193         1.0        False
+  Semantic_Level  Stylistic_Level    -0.028558 0.978014 -0.019511  -2.154361  2.115339         1.0        False

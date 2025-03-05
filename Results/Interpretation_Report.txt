@@ -1,0 +1,40 @@
+📊 **Maximum Entropy Model Interpretation Report**
+----------------------------------------------
+
+✅ Constraint Type Used: **mean**
+
+
+📌 **Constraint Strength per Linguistic Level**
+- Character_Level: **0.0064**
+- Morphology_Level: **0.0081**
+- Syntax_Level: **0.0082**
+- Grammar_Level: **0.0061**
+- Semantic_Level: **0.0097**
+- Stylistic_Level: **0.0098**
+
+❌ **Hypothesis Not Supported:** Higher-level constraints are unexpectedly stronger.
+
+📈 **Detailed Lambda Values**
+                     Index   Lambda            Level
+                  Zipf_Law 0.004482  Character_Level
+     Kolmogorov_Complexity 0.008250  Character_Level
+           Syllable_Counts 0.008440 Morphology_Level
+              Word_Lengths 0.005936 Morphology_Level
+     Lexical_Diversity_TTR 0.011276 Morphology_Level
+ Lexical_Diversity_Shannon 0.006824 Morphology_Level
+      POS_Tag_Distribution 0.012347     Syntax_Level
+       Avg_Sentence_Length 0.005163     Syntax_Level
+     Dependency_Complexity 0.005599     Syntax_Level
+         Punctuation_Usage 0.009840     Syntax_Level
+    Readability_Dale_Chall 0.009672    Grammar_Level
+Readability_Flesch_Kincaid 0.004924    Grammar_Level
+     Referential_Integrity 0.003681    Grammar_Level
+         Cosine_Similarity 0.004214   Semantic_Level
+        WordNet_Similarity 0.007017   Semantic_Level
+            Lexical_Chains 0.010369   Semantic_Level
+     LDA_Topic_Consistency 0.017108   Semantic_Level
+         Style_Consistency 0.014223  Stylistic_Level
+                BLEU_Score 0.016762  Stylistic_Level
+             Jaccard_Score 0.003263  Stylistic_Level
+               ROUGE_Score 0.014023  Stylistic_Level
+        Text_Flow_Analysis 0.000744  Stylistic_Level
