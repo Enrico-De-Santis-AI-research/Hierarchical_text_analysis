@@ -1,2 +1,11 @@
 Basic_codes/
 Lagrange_Entropic_Analysis.code-workspace
+
+
+# Ignore all contents of these folders
+Models/*
+Results/*
+
+# But do not ignore the folders themselves
+!Models/.gitkeep
+!Results/.gitkeep
